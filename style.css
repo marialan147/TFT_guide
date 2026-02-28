@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0.5;
+    padding: 0;
+    background-color: #905d8d;
+    color: #333;
+}
+header {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 5px solid #723473;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 1.5rem auto 0;
+    color: #d1d1e0;
+}
+.container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.step-card {
+    background: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-left: 6px solid #723473;
+    transition: transform 0.2s ease-in-out;
+}
+.step-card h2 {
+    color: #1a1a2e;
+    margin-top: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.step-card p {
+    margin-bottom: 0;
+    font-size: 1.05rem;
+    color: #555;
+}
+.step-card img {
+    max-width: 100%;
+    height: auto;    
+    display: block;  
+    margin: 1rem auto; 
+}
+
+.footer-link {
+    color: #3498db; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+}
+
+.footer-link:hover {
+    color: #2980b9; 
+    text-decoration: underline; 
+}
